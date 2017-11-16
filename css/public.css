@@ -43,4 +43,12 @@ i, em, strong {
   padding: 0;
 }
 
+.clear:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
 /*# sourceMappingURL=public.css.map */

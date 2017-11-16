@@ -201,6 +201,12 @@
             }
         }
         
+        
+        
+
+        
+        
+        
 /*------------------topWrap---------------------*/
 
 .topWrap{
@@ -298,7 +304,7 @@
 }
  #homeCn{
             width: 100%;
-            height:53px;
+            height:55px;
             border-bottom:1px solid  #d51819;
             .home{
                 width:1200px;
@@ -324,12 +330,12 @@
                 }
                 .wrapL{
                     width:236px;
-                    height:40px;
+                    height:43px;
                     text-align:center;
-                    background:#d51819 url(../images/321.png) no-repeat 11px -398px;
+                    background:#d51819 url(../images/321.png) no-repeat 11px -395px;
                     float:left; 
                     h3{
-                        line-height:40px;
+                        line-height:46px;
                         color:#fff;
                     }
                 }
@@ -345,7 +351,7 @@
             margin:0 auto;
             .footR{
                 width:359px;
-                height:239px;
+                height:240px;
                 float: right;
                 margin-top:55px;
                 dl{
@@ -385,10 +391,45 @@
     .bottom{
         width:1200px;
         height: 320px;
-        background:#55A532;
         margin:0 auto;
-        margin-top:3px;
+        margin-top: 43px!important;
+        .qqq{
+            height:190px
+        }
         dl{
-            float: left;
+            width:200px;
+            float:left;
+           
+            dt{
+                 padding-bottom: 10px;
+                 margin-bottom: 5px;
+                 color: #231815;
+                 font-size:14px;
+                 font-weight:700;
+            }
+             dd{
+                     line-height:20px ;
+                     color:#231815;
+                 }
+        }
+        .xian{
+            width:1200px;
+            text-align:center;
+            border-top:1px solid #999;
+            p{
+                margin: 20px auto 0;
+                color: #787878;
+            }
+            span{
+                display: block;
+                float: left;
+                width: 1200px;
+                text-align:center;
+                padding-top:15px;
+                    img{
+                    display: inline-block;
+                   }
+            }
+            
         }
     }

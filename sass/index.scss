@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+.hX{
+    border-top:2px solid #f00;
+    position:relative;
+    a{
+         left:2px;
+                  top:2px;
+                  background:red;
+    }
+                 
+}
+
+
+.content {
+  width: 1200px;
+  height: 531px;
+  margin: 0 auto;
+  .conL{
+    width:236px;
+    height:531px;
+    float: left;
+    position: relative;
+    .tc{
+        width: 722px;
+        height:530px;
+        background:#63A35C;
+        position: absolute;
+        left:235px;
+        bottom: 0;
+        z-index:10;
+
+        .Left{
+            width:182px;
+            height:530px;
+            background: #0086B3;
+            float: left;
+        }
+        .Lp{
+            width:540px;
+            height:360px;
+            background:#222222;
+            float: left;
+        }
+        .Right{
+            float:left;
+            width:540px;
+            height:170px;
+            background: #FF0000;
+        }
+    }
+    ul{
+            border: 1px solid #d51819
+    }
+        .LL{
+             height:51px;
+        }
+        .F{
+            margin-top:10px;
+        }
+    dl{
+        width: 224px;
+        height:73px;
+        padding-left:10px;
+        dt{
+            width:224px;
+            height:19px;
+            font-size:14px;
+            color:#222;
+            font-weight:900;
+           height:19px;
+        }
+        dd{
+            float: left;
+            a{
+                padding-right: 3px;
+                color: #696969;
+            }
+        }
+    }
+  }
+  .conC{
+      width:718px;
+      height:531px;
+      float: left;
+      .conT{
+          width:718px;
+          height:475px;
+          position: relative;
+          ul{
+              li{
+                  position: absolute;
+                  left: 5px;
+                  bottom: -2px;
+                  img{
+                      width:718px;
+                      height:475px;
+                  }
+              }
+          }
+      }
+      .conB{
+          width:722px;
+          height:50px;
+          text-align: center;
+          border:1px solid #ccc;
+          position: relative;
+          top:3px;
+          ul{
+              .first{
+                  background-position:130px ;
+              }
+              li{
+                  width:144px;
+                  height:50px;
+                  line-height:50px;
+                  float:left;        
+                  font-size: 14px;
+                  position: relative;
+                  letter-spacing: 2px;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  box-sizing: border-box;
+                   background:url(../images/icons.png) no-repeat 97px -2266px;
+                  a{
+                  padding-right:10px;
+                  
+                  }        
+              }
+          }
+      }
+  }
+  .zt{
+      img:last-child{
+          padding-top:10px;
+      }
+      img{
+          padding-left:10px;
+      }
+  }
+}

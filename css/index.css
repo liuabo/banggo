@@ -1,3 +1,131 @@
+.hX {
+  border-top: 2px solid #f00;
+  position: relative;
+}
+.hX a {
+  left: 2px;
+  top: 2px;
+  background: red;
+}
 
+.content {
+  width: 1200px;
+  height: 531px;
+  margin: 0 auto;
+}
+.content .conL {
+  width: 236px;
+  height: 531px;
+  float: left;
+  position: relative;
+}
+.content .conL .tc {
+  width: 722px;
+  height: 530px;
+  background: #63A35C;
+  position: absolute;
+  left: 235px;
+  bottom: 0;
+  z-index: 10;
+}
+.content .conL .tc .Left {
+  width: 182px;
+  height: 530px;
+  background: #0086B3;
+  float: left;
+}
+.content .conL .tc .Lp {
+  width: 540px;
+  height: 360px;
+  background: #222222;
+  float: left;
+}
+.content .conL .tc .Right {
+  float: left;
+  width: 540px;
+  height: 170px;
+  background: #FF0000;
+}
+.content .conL ul {
+  border: 1px solid #d51819;
+}
+.content .conL .LL {
+  height: 51px;
+}
+.content .conL .F {
+  margin-top: 10px;
+}
+.content .conL dl {
+  width: 224px;
+  height: 73px;
+  padding-left: 10px;
+}
+.content .conL dl dt {
+  width: 224px;
+  height: 19px;
+  font-size: 14px;
+  color: #222;
+  font-weight: 900;
+  height: 19px;
+}
+.content .conL dl dd {
+  float: left;
+}
+.content .conL dl dd a {
+  padding-right: 3px;
+  color: #696969;
+}
+.content .conC {
+  width: 718px;
+  height: 531px;
+  float: left;
+}
+.content .conC .conT {
+  width: 718px;
+  height: 475px;
+  position: relative;
+}
+.content .conC .conT ul li {
+  position: absolute;
+  left: 5px;
+  bottom: -2px;
+}
+.content .conC .conT ul li img {
+  width: 718px;
+  height: 475px;
+}
+.content .conC .conB {
+  width: 722px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  position: relative;
+  top: 3px;
+}
+.content .conC .conB ul .first {
+  background-position: 130px;
+}
+.content .conC .conB ul li {
+  width: 144px;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  font-size: 14px;
+  position: relative;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  background: url(../images/icons.png) no-repeat 97px -2266px;
+}
+.content .conC .conB ul li a {
+  padding-right: 10px;
+}
+.content .zt img:last-child {
+  padding-top: 10px;
+}
+.content .zt img {
+  padding-left: 10px;
+}
 
 /*# sourceMappingURL=index.css.map */
