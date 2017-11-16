@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .hX {
   border-top: 2px solid #f00;
   position: relative;
@@ -22,17 +23,40 @@
 .content .conL .tc {
   width: 722px;
   height: 530px;
-  background: #63A35C;
+  background: #fff;
   position: absolute;
   left: 235px;
   bottom: 0;
   z-index: 10;
+  border: 1px solid #ccc;
+  display: none;
 }
 .content .conL .tc .Left {
   width: 182px;
   height: 530px;
-  background: #0086B3;
   float: left;
+}
+.content .conL .tc .Left dl {
+  height: 150px;
+}
+.content .conL .tc .Left dl dt {
+  height: 19px;
+  color: #222;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+.content .conL .tc .Left dl dd {
+  width: 211px;
+  height: 100px;
+}
+.content .conL .tc .Left dl dd a {
+  display: block;
+  font-size: 14px;
+  float: left;
+  width: 72px !important;
+  line-height: 19px !important;
+  padding-right: 10px !important;
 }
 .content .conL .tc .Lp {
   width: 540px;
@@ -44,7 +68,17 @@
   float: left;
   width: 540px;
   height: 170px;
-  background: #FF0000;
+  background: #fff;
+}
+.content .conL .tc .Right p {
+  font-size: 14px;
+  color: #222;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.content .conL .tc .Right a {
+  float: left;
+  margin: 19px 12px;
 }
 .content .conL ul {
   border: 1px solid #d51819;
@@ -126,6 +160,32 @@
 }
 .content .zt img {
   padding-left: 10px;
+}
+
+/*-----------小轮播--------------*/
+#hot {
+  width: 1200px;
+  height: 132px;
+  margin: 0 auto;
+  background: #0086B3;
+  position: relative;
+  overflow: hidden;
+}
+#hot .xL {
+  width: 3000px;
+  height: 132px;
+  margin: 0 auto;
+  background: #0086B3;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#hot .xL li {
+  float: left;
+}
+#hot .xL li img {
+  padding-top: 5px;
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=index.css.map */

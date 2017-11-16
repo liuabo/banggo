@@ -37,7 +37,12 @@ $(function(){
 		$(this).animate({"opacity":1},200)
 	})
 	
-	
+	$(".F").hover(function(){
+		$(".tc").css("display","block")
+	},function(){
+		$(".tc").css("display","none")
+		
+	})
 	
 	
 	

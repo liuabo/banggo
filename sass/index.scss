@@ -24,17 +24,39 @@
     .tc{
         width: 722px;
         height:530px;
-        background:#63A35C;
+        background:#fff;
         position: absolute;
         left:235px;
         bottom: 0;
         z-index:10;
-
+        border:1px solid #ccc;
+        display: none;
         .Left{
             width:182px;
             height:530px;
-            background: #0086B3;
             float: left;
+            dl{
+                height:150px;
+                dt{
+                    height:19px;
+                    color:#222;
+                    font-size:15px;
+                    font-weight:900;
+                    padding:10px 0; 
+                }
+                dd{
+                    width:211px;
+                    height:100px;
+                    a{
+                        display: block;
+                        font-size:14px;
+                        float: left;
+                        width:72px!important;
+                        line-height:19px !important; 
+                        padding-right:10px !important;
+                    }
+                }
+            }
         }
         .Lp{
             width:540px;
@@ -46,7 +68,17 @@
             float:left;
             width:540px;
             height:170px;
-            background: #FF0000;
+            background: #fff;
+            p{
+                font-size:14px;
+                color:#222;
+                font-weight:900;
+                margin-top:5px;
+            }
+            a{
+                float:left;
+               margin:19px 12px;
+            }
         }
     }
     ul{
@@ -139,3 +171,33 @@
       }
   }
 }
+
+
+/*-----------小轮播--------------*/
+
+#hot{
+    width:1200px;
+    height:132px;
+    margin: 0 auto;
+    background: #0086B3;
+    position: relative;
+     overflow: hidden;
+    .xL{
+         width:3000px;
+         height:132px;
+         margin: 0 auto;
+         background: #0086B3;
+         position: absolute;
+         left: 0;
+         top:0;
+        li{
+            float: left;
+            img{
+                padding-top:5px;
+                margin-right:5px;
+            }
+        }
+    }
+}
+
+
