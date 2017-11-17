@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 .hX{
     border-top:2px solid #f00;
     position:relative;
@@ -19,8 +18,8 @@
   .conL{
     width:236px;
     height:531px;
-    float: left;
     position: relative;
+    float: left;
     .tc{
         width: 722px;
         height:530px;
@@ -119,6 +118,7 @@
           width:718px;
           height:475px;
           position: relative;
+          float: left;
           ul{
               li{
                   position: absolute;
@@ -179,25 +179,259 @@
     width:1200px;
     height:132px;
     margin: 0 auto;
-    background: #0086B3;
     position: relative;
      overflow: hidden;
+     
+     
+     .recL{
+            width:40px;
+            height:40px;
+            position: absolute;
+            left: 0;
+            top: 43px;
+            z-index: 10;
+          }
+         .recR{
+         width:40px;
+         height: 40px;
+         position: absolute;
+         left:1160px;
+         top:43px;
+         z-index: 400;
+     }
     .xL{
          width:3000px;
          height:132px;
          margin: 0 auto;
-         background: #0086B3;
          position: absolute;
          left: 0;
          top:0;
+            z-index:1;
+         
         li{
             float: left;
             img{
                 padding-top:5px;
-                margin-right:5px;
+                margin-right:7px;
             }
         }
     }
 }
+
+
+
+/**********************提醒********************************/
+    .inPlate{
+        width:1200px;
+        height: 3180px;
+        margin:0 auto;
+        .plate{
+            width:1200px;
+            margin:0 auto;
+            }
+            .plate-box{
+                width: 1200px;
+                height:960px;
+                .plate-b{
+                        width: 1200px;
+                        height:300px;
+                        position: relative;
+                        margin-bottom: 30px;
+                        li:first-child{
+                            position: absolute;
+                            bottom:0;
+                            left:118px;
+                        }
+                        li:last-child{
+                            position: absolute;
+                            bottom:0;
+                            left:718px;
+                        }
+                        li{
+                            float: left;
+                        }
+                    }
+                .plate-P{
+                    width: 1200px;
+                    height:300px;
+                    position: relative;
+                    padding-bottom: 30px;
+                    p{
+                        width:149px;
+                        height:22px;
+                        background:#f00;
+                        position: absolute;
+                        top:213px;
+                        left:118px;
+                       line-height: 22px;
+                        z-index: 100000;             
+                    }
+                    li:nth-of-type(4){
+                        position: absolute;
+                        top:235px;
+                        left:118px;
+                    }
+                    li:nth-of-type(8){
+                        position: absolute;
+                        top:235px;
+                        right: 333px;
+                    }
+                     
+                    li{
+                        float:left;
+                    }
+                }
+                .plate-right{
+                    float: left;
+                    position: relative;
+                     li:nth-of-type(4){
+                        position: absolute;
+                        bottom:0;
+                        left:118px;
+                    }
+                    li{
+                        float: left;
+                    }
+                }
+            }
+            
+            
+            
+                .beg{
+                    width:1200px;
+                    height:540px;
+                    .wrp{
+                        width:720px;
+                        height:480px;
+                        float: left;
+                        li{
+                            float: left;
+                        }
+                    }
+                    .begWrap{
+                        height:480px;
+                        .aC{
+                            float:left;
+                            .bgt{
+                                 a{
+                                        font-size:20px;
+                                        display:block;
+                                        width:118px;
+                                        float: left;
+                                        text-align: center;
+                                        line-height: 38px;
+                                    }
+                            }
+                        }
+                        
+                      .logo{
+                          width:240px;
+                          height:183px;
+                           float: left;
+                           background: #fff;
+                          img{
+                              float: left;
+                          }
+                      }
+                    }
+                    
+                    .pB{
+                        width:1200px;
+                        height:540px;
+                        .pL{
+                            width:240px;
+                            height:420px;
+                            float: left;
+                            .pR{
+                                img{
+                                    float: left;
+                                }
+                            }
+                            .bgt1{
+                                    a{
+                                        font-size:20px;
+                                        display:block;
+                                        float:left;
+                                        width:118px;
+                                        text-align: center;
+                                        line-height: 38px;
+                                    }
+                                }
+                            }
+                            .pLate{
+                                img{
+                                    float: left;
+                                }
+                            }
+                        }
+                    .bg{
+                      width:1200px;
+                      height:540px;
+                      .bgR{
+                          img{
+                              float: left;
+                          }
+                      }
+                       .bgL{
+                            width:240px;
+                            height:480px;
+                            float: left;
+                            .pR{
+                                img{
+                                    float: left;
+                                }
+                            }
+                            .bgt2{
+                                a{
+                                        font-size:20px;
+                                        display:block;
+                                        float:left;
+                                        width:118px;
+                                        text-align: center;
+                                        line-height: 38px;
+                                    }
+                            }
+                        }
+                    }
+                    
+                    
+                    
+                    .qW{
+                        width:1200px;
+                        height:540px;
+                        .qL{
+                            width:240px;
+                            height:480px;
+                            float: left;
+                            .bgt3{
+                                 a{
+                                        font-size:20px;
+                                        display:block;
+                                        float:left;
+                                        width:118px;
+                                        text-align: center;
+                                        line-height: 38px;
+                                    } 
+                            }
+                            .pR{
+                                img{
+                                    float: left;
+                                }
+                            }
+                        }
+                        .qR{
+                                    img{
+                                        float: left;
+                                    }
+                                }
+                    }
+                    
+                    
+                }
+            }
+
+
+
+
 
 

@@ -17,8 +17,8 @@
 .content .conL {
   width: 236px;
   height: 531px;
-  float: left;
   position: relative;
+  float: left;
 }
 .content .conL .tc {
   width: 722px;
@@ -118,6 +118,7 @@
   width: 718px;
   height: 475px;
   position: relative;
+  float: left;
 }
 .content .conC .conT ul li {
   position: absolute;
@@ -167,25 +168,219 @@
   width: 1200px;
   height: 132px;
   margin: 0 auto;
-  background: #0086B3;
   position: relative;
   overflow: hidden;
+}
+#hot .recL {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  z-index: 10;
+}
+#hot .recR {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1160px;
+  top: 43px;
+  z-index: 400;
 }
 #hot .xL {
   width: 3000px;
   height: 132px;
   margin: 0 auto;
-  background: #0086B3;
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 1;
 }
 #hot .xL li {
   float: left;
 }
 #hot .xL li img {
   padding-top: 5px;
-  margin-right: 5px;
+  margin-right: 7px;
+}
+
+/**********************提醒********************************/
+.inPlate {
+  width: 1200px;
+  height: 3180px;
+  margin: 0 auto;
+}
+.inPlate .plate {
+  width: 1200px;
+  margin: 0 auto;
+}
+.inPlate .plate-box {
+  width: 1200px;
+  height: 960px;
+}
+.inPlate .plate-box .plate-b {
+  width: 1200px;
+  height: 300px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.inPlate .plate-box .plate-b li:first-child {
+  position: absolute;
+  bottom: 0;
+  left: 118px;
+}
+.inPlate .plate-box .plate-b li:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 718px;
+}
+.inPlate .plate-box .plate-b li {
+  float: left;
+}
+.inPlate .plate-box .plate-P {
+  width: 1200px;
+  height: 300px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.inPlate .plate-box .plate-P p {
+  width: 149px;
+  height: 22px;
+  background: #f00;
+  position: absolute;
+  top: 213px;
+  left: 118px;
+  line-height: 22px;
+  z-index: 100000;
+}
+.inPlate .plate-box .plate-P li:nth-of-type(4) {
+  position: absolute;
+  top: 235px;
+  left: 118px;
+}
+.inPlate .plate-box .plate-P li:nth-of-type(8) {
+  position: absolute;
+  top: 235px;
+  right: 333px;
+}
+.inPlate .plate-box .plate-P li {
+  float: left;
+}
+.inPlate .plate-box .plate-right {
+  float: left;
+  position: relative;
+}
+.inPlate .plate-box .plate-right li:nth-of-type(4) {
+  position: absolute;
+  bottom: 0;
+  left: 118px;
+}
+.inPlate .plate-box .plate-right li {
+  float: left;
+}
+.inPlate .beg {
+  width: 1200px;
+  height: 540px;
+}
+.inPlate .beg .wrp {
+  width: 720px;
+  height: 480px;
+  float: left;
+}
+.inPlate .beg .wrp li {
+  float: left;
+}
+.inPlate .beg .begWrap {
+  height: 480px;
+}
+.inPlate .beg .begWrap .aC {
+  float: left;
+}
+.inPlate .beg .begWrap .aC .bgt a {
+  font-size: 20px;
+  display: block;
+  width: 118px;
+  float: left;
+  text-align: center;
+  line-height: 38px;
+}
+.inPlate .beg .begWrap .logo {
+  width: 240px;
+  height: 183px;
+  float: left;
+  background: #fff;
+}
+.inPlate .beg .begWrap .logo img {
+  float: left;
+}
+.inPlate .beg .pB {
+  width: 1200px;
+  height: 540px;
+}
+.inPlate .beg .pB .pL {
+  width: 240px;
+  height: 420px;
+  float: left;
+}
+.inPlate .beg .pB .pL .pR img {
+  float: left;
+}
+.inPlate .beg .pB .pL .bgt1 a {
+  font-size: 20px;
+  display: block;
+  float: left;
+  width: 118px;
+  text-align: center;
+  line-height: 38px;
+}
+.inPlate .beg .pB .pLate img {
+  float: left;
+}
+.inPlate .beg .bg {
+  width: 1200px;
+  height: 540px;
+}
+.inPlate .beg .bg .bgR img {
+  float: left;
+}
+.inPlate .beg .bg .bgL {
+  width: 240px;
+  height: 480px;
+  float: left;
+}
+.inPlate .beg .bg .bgL .pR img {
+  float: left;
+}
+.inPlate .beg .bg .bgL .bgt2 a {
+  font-size: 20px;
+  display: block;
+  float: left;
+  width: 118px;
+  text-align: center;
+  line-height: 38px;
+}
+.inPlate .beg .qW {
+  width: 1200px;
+  height: 540px;
+}
+.inPlate .beg .qW .qL {
+  width: 240px;
+  height: 480px;
+  float: left;
+}
+.inPlate .beg .qW .qL .bgt3 a {
+  font-size: 20px;
+  display: block;
+  float: left;
+  width: 118px;
+  text-align: center;
+  line-height: 38px;
+}
+.inPlate .beg .qW .qL .pR img {
+  float: left;
+}
+.inPlate .beg .qW .qR img {
+  float: left;
 }
 
 /*# sourceMappingURL=index.css.map */
