@@ -375,10 +375,11 @@ i, em, strong {
   margin: 0 auto;
 }
 .foot .footR {
-  width: 359px;
-  height: 240px;
+  width: 357px;
+  height: 238px;
   float: right;
   margin-top: 55px;
+  border: 1px solid #dcdcdc;
 }
 .foot .footR dl {
   height: 88px;
@@ -454,6 +455,17 @@ i, em, strong {
 }
 .bottom .xian span img {
   display: inline-block;
+}
+
+.head {
+  width: 60px;
+  height: 155px;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+}
+.head .hed {
+  display: none;
 }
 
 /*# sourceMappingURL=reset.css.map */

@@ -169,13 +169,86 @@ $.getJSON("json/content2.json",function(data){
 		}
 	$(".qR").html(acc);
 	})
-	
-	
-	
-	$("body img").mouseover(function(){
-		$(this).animate({"opacity":"0.4"})
+	$(".zt").on( "mouseover" , " img ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","img",function(){
+		$(this).animate({"opacity":"1"},50)
 	})
-	$("body img").mouseout(function(){
+	
+	$(".LB").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	
+	$(".xL").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	
+	
+	$(".plate-a").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	
+	$(".plate-b").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	
+	$(".plate-c").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	$(".wrp").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	$(".plate").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	})
+	
+	$(".pLate").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	}) 	
+	$(".bgR").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	}) 	
+	$(".qR").on( "mouseover" , " li ",function(){
+		$(this).animate({"opacity":"0.8"},50)
+	}).on("mouseout","li",function(){
+		$(this).animate({"opacity":"1"},50)
+	}) 	
+	$("body img").hover(function(){
+		$(this).animate({"opacity":"0.8"})
+	},function(){
 		$(this).animate({"opacity":"1"})
+	})
+	
+	
+	
+	$(window).scroll(function(){
+		//获取页面滚走的距离
+		var sTop = $(document).scrollTop();
+		if( sTop > 200 ){
+			$(".hed").css("display","block")
+			$(".hed").click(function(){
+			$("body,html").animate({ scrollTop : 0 },1000)
+	})
+		}else{
+			$(".hed").css("display","none")
+		}
 	})
 })

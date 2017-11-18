@@ -350,10 +350,11 @@
             height:293px;
             margin:0 auto;
             .footR{
-                width:359px;
-                height:240px;
+                width:357px;
+                height:238px;
                 float: right;
                 margin-top:55px;
+                border:1px solid #dcdcdc;
                 dl{
                     height:88px;
                     width:119px;
@@ -433,3 +434,13 @@
             
         }
     }
+.head{
+    width:60px;
+    height:155px;
+    position: fixed;
+    right:0;
+    bottom:30px;
+    .hed{
+           display:none;        
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	</head>
+	<body>
+<div class="Ctop Cwrap Lovh">
+		<h1 class="logo Ldb Lfll">
+			<a href="http://www.banggo.com" class="Ldb Lti1000r">
+				<img src="images/reg/logo.jpg"/>
+			</a>
+		</h1>
+</div>
+
+<div class="Li-main">
+	<div class="Li-left">
+		<a href="http://www.banggo.com">
+			<img src="images/reg/login_banner.jpg"/>
+		</a>
+	</div>
+	
+	<div class="bigBox">
+		
+	
+	<div class="Li-right">
+		<div id="jsSeltab" class="seltab">
+				<h3 class="t1 cstyle" ltn="用户名" ltw="登录密码">帐户登录</h3>
+				<h3 class="t2 " ltn="手机号" ltw="登录密码">手机登录</h3>
+				<h3 class="t3 " ltn="卡&nbsp;号" ltw="卡密码">卡登录</h3>
+			</div>
+			<div class="item Lovh Lmt30">
+
+							<div class="ltext Lfll" id="login_type_name">
+									    用户名：
+							</div>
+							<div class="Lfll Lovh">
+								<input id="username" name="username" class="input1 Lfll required" tabindex="1" type="text" value="" size="25" maxlength="70" autocomplete="false">
+							</div>
+							<!-- 新增提示信息 -->
+							<div class="Lfll verify_text">
+								<span class="tips" id="id_info_username"></span> <span class="errorinfo1 Lcfl red" id="id_error_username"></span>
+							</div>
+							<!-- 新增提示信息 end -->
+
+						</div>
+						
+						<div class="item Lovh ">
+							<div class="ltext Lfll" id="login_type_pwd">
+									   登录密码：
+							</div>
+							<div class="Lfll">
+								<input id="password" name="password" class="input1 Lfll required" tabindex="2" type="password" value="" size="25" maxlength="40" autocomplete="off">
+							</div>
+
+							<!-- 新增密码提示信息 -->
+							<div class="Lfll verify_text">
+								<span class="tips" id="id_info_password"></span> <span class="errorinfo1 Lcfl" id="id_error_password"></span>
+							</div>
+							<!-- 新增密码提示信息 end -->
+
+						</div>
+						
+						
+						<div class="item Lovh ">
+							<div class="ltext Lfll" id="login_type_pwd">验证码：</div>
+							<div class="Lfll">
+								<input id="vcode" name="vcode" class="input1 Lfll required" tabindex="3" style="width:50px;" type="text" value="" size="6" maxlength="6" autocomplete="false">
+
+
+								<span id="mySpan"> <img align="middle" id="img1" class="change_img" src="./会员登录_files/loginCode.do"> <a onclick="changeImg('img1')">换一张</a>
+								</span>
+							</div>
+
+							<!-- 新增验证码提示信息 -->
+							<div class="Lfll verify_text">
+								<span class="tips" id="id_info_vcode"></span> <span class="errorinfo1 Lcfl" id="id_error_vcode"></span>
+							</div>
+							<!-- 新增验证码提示信息 end -->
+
+						</div>
+						
+						
+						<div class="item Lovh Lmt5">
+							<div class="ltext Lfll">&nbsp;</div>
+							<div class="Lfll">
+								<input id="rememberUsername" name="rememberUsername" class="checkbox1" type="checkbox" checked="checked" tabindex="4"> <label for="rememberUsername" class="Lmr20">
+									记住用户名 </label> <input type="checkbox" name="rememberMe" id="rememberMe" value="true" class="checkbox1" tabindex="5"> <label for="autoLogin" class="Lmr20"> 自动登录 </label>
+							</div>
+						</div>
+						
+						<div class="item Lovh Lmt10">
+							<div class="ltext Lfll">
+								&nbsp; <input type="hidden" name="lt" value="e1s1"> <input type="hidden" name="_eventId" value="submit">
+								<input id="loginType" name="loginType" type="hidden" value="0">
+								<input id="lastIp" name="lastIp" type="hidden" value="">
+							</div>
+							<div class="Lfll Lmr10">
+								<a class="btn btn_login" id="log_btn"><span></span> </a>
+							</div>
+							<a class="retrieve Lfll" href="https://passport.banggo.com/CASServer/custom/showgetPwd.do?service=http://bgact.banggo.com/login?r_url=http%3A%2F%2Fwww.banggo.com%2F">找回密码？
+							</a>
+						</div>
+						
+						<div class="bottom">
+					<span class="Lmr5">还不是邦购网用户？马上加入吧~~~</span> <a class="btn btn_common Lffst Lovv" href="https://passport.banggo.com/CASServer/custom/registryPage.do?service=http://bgact.banggo.com/login?r_url=http%3A%2F%2Fwww.banggo.com%2F"><span>免费注册&gt;&gt;</span>
+					</a>
+				</div>
+				
+		</div>
+				<div class="login">
+					
+				</div>
+				
+	</div>
+</div>
+	</body>
+</html>
