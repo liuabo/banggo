@@ -5,8 +5,14 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/register.css"/>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/public.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/register.js"></script>
 	</head>
 	<body>
+		
+			
+		</div>
 		<div class="top">
 			<h1><a href="###"><img src="images/res/logo.png"/></a></h1>
 		</div>
@@ -19,36 +25,36 @@
 					第一步：填写手机账户信息（以下内容均为必填）
 				</div>
 				<div class="item">
+					<form   method="post" onsubmit="return checkForm();">
 					<h2>用户名：</h2>
 					<div class="fll">
-						<input type="text" name="" id="" value="" /><span class="tips">4-20个字符，一个汉字为两个字符，推荐使用中文会会员名字。一旦注册成功会员名将不能修改。</span>
+						<input type="text"  name="" id="uname" value="" /><span class="tips s1">4-20个字符，一个汉字为两个字符，推荐使用中文会会员名字。一旦注册成功会员名将不能修改。</span>
 					</div>
 				</div>
 				<div class="ite">
 					<div class="ltext Lfll"><h2>手机号码：</h2></div>
 					<div class="Lfll">
 							<div class="inputlbd Lfll">&nbsp;</div>
-							<input id="mobileNumber" name="mobile" value="" class="input1 Lfll"> 
-							<span class="tips">请输入您的手机号码。</span> 
+							<input type="text" id="mobileNumber" name="mobile" value="" class="input1 Lfll"> 
+							<span class="tips s2">请输入您的手机号码。</span> 
 							<span id="mobileNumber_message" class="errorinfo Lcfl">&nbsp;</span>
 						</div>
 				</div>
-				<div class="it">
-					<div class="iL Lfll"><h2>验证码:&nbsp;&nbsp;</h2></div>
-					<div class="Lfll">
-							<input type="text" maxlength="4" name="codeNumber" class="input2 Lfll" id="img2Code"> 
-							<span id="mySpan2">
-								<img align="middle" id="img2" class="change_img" src="https://passport.banggo.com:443/CASServer//custom/loginCode.do?time=1510923129539"> 
-								<a onclick="changeImg('img2')">换一张</a>
-							</span> 
-							<span id="img2_message" class="errorinfo Lcfl"><font color="red">验证码不能为空</font></span>
-						</div>
-				</div>
+				
+				
+				
 				<div class="It">
-					
+					<div class="ItLeft">
+						 <h2><em>验证码 :</em> <p><input  id="Yz" type="text" name="" value="" /></p></h2><span id="yz" style="    display:block;float:left;width:90px;height:30px;border:1px solid #ccc; background:url(images/reg/1.png) no-repeat;"></span><a id="btn" href="###">看不清</a>
+						 <span class="error-tip"></span>
+					</div>
+					<input class="qL2" type="button" name="" id="" value="" />
 				</div>
-			</div>
+			</div></form>
 			<img src="images/res/res.png"/>
+		</div>
+		<div id="pp">
+			美特斯邦威集团网站： 美特斯邦威 | ME&CITY | CH'IN祺 | 邦购网
 		</div>
 	</body>
 </html>

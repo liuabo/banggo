@@ -8,15 +8,15 @@
   width: 980px;
   height: 480px;
   margin: 0 auto;
-  background: #0086B3;
 }
 .Li-main .Li-left {
   float: left;
 }
 .Li-main .Li-right {
-  width: 338px;
+  width: 335px;
   height: 478px;
-  border: 1px solid #ccc;
+  border: 1px solid #999;
+  border-top: 0;
   float: left;
   position: relative;
 }
@@ -26,7 +26,7 @@
 }
 .Li-main .Li-right .seltab h3 {
   text-align: center;
-  width: 110px;
+  width: 111px;
   height: 36px;
   line-height: 36px;
   font-size: 14px;
@@ -37,7 +37,18 @@
   float: left;
 }
 .Li-main .Li-right .item {
-  margin-top: 30px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+.Li-main .Li-right .item .verify_text .tips {
+  margin-left: 15px;
+}
+.Li-main .Li-right .item .ver {
+  width: 110px;
+  height: 26px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
 }
 .Li-main .Li-right .item .retrieve {
   display: block;
@@ -74,27 +85,44 @@
   height: 58px;
   float: left;
   position: absolute;
-  bottom: 0;
-  left: 28px;
+  bottom: 76px;
+  left: 25px;
   border-top: 1px solid #ccc;
-  padding-top: 30px;
-}
-.Li-main .Li-right .login_surport {
-  width: 302px;
-  height: 94px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.Li-main .Li-right .login {
-  width: 302px;
-  height: 93px;
-  background: red;
-  float: left;
+  padding-top: 18px;
 }
 .Li-main .Li-right .bigBox {
   width: 338px;
-  height: 450px;
+  height: 481px;
+}
+.Li-main .Li-right .login {
+  width: 302px;
+  height: 94px;
+  position: absolute;
+  bottom: 14px;
+  left: 22px;
+}
+.Li-main .Li-right .login h3 {
+  width: 298px;
+  height: 32px;
+  background: #efefef;
+  text-align: center;
+  line-height: 32px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+}
+.Li-main .Li-right .login p a {
+  display: block;
+  width: 98px;
+  height: 32px;
+  float: left;
+  text-align: center;
+  line-height: 32px;
+  border: 1px solid #ccc;
+}
+.Li-main .L-bottom {
+  text-align: center;
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=reg.css.map */

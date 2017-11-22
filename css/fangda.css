@@ -1,0 +1,38 @@
+#mall {
+  width: 480px;
+  height: 480px;
+  border: 1px solid #ccc;
+}
+#mall #layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 350px;
+  background: gray;
+  opacity: 0.4;
+  display: none;
+}
+#mall img {
+  position: absolute;
+  left: 161px;
+  top: 202px;
+}
+#mall #Big {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  background: red;
+  position: absolute;
+  top: 200px;
+  left: 672px;
+  z-index: 1000;
+}
+#mall #Big img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0 0  10px;
+}
+
+/*# sourceMappingURL=fangda.css.map */

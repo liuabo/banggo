@@ -464,6 +464,10 @@ i, em, strong {
   right: 0;
   bottom: 30px;
 }
+.head .head1 {
+  width: 55px;
+  height: 100px;
+}
 .head .hed {
   display: none;
 }

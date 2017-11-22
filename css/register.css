@@ -40,6 +40,47 @@
   padding-bottom: 30px;
   border: 1px solid #ccc;
 }
+.content .contL .It {
+  width: 700px;
+  height: 44px;
+}
+.content .contL .It .ItLeft {
+  width: 700px;
+  height: 60px;
+  box-sizing: border-box;
+  padding-top: 16px;
+  margin-left: 48px;
+}
+.content .contL .It .ItLeft span {
+  line-height: 30px;
+}
+.content .contL .It .ItLeft h2 {
+  float: left;
+}
+.content .contL .It .ItLeft h2 em {
+  float: left;
+  line-height: 30px;
+  padding-right: 10px;
+}
+.content .contL .It .ItLeft h2 p {
+  width: 120px;
+  height: 30px;
+  float: left;
+}
+.content .contL .It .ItLeft h2 p input {
+  width: 107px;
+  height: 30px;
+  border: 0;
+  border: 1px solid #ccc;
+}
+.content .contL .It .qL2 {
+  width: 108px;
+  height: 34px;
+  margin: 12px 0 0 116px;
+  background: url(../images/reg/buttons.png) no-repeat -225px -85px;
+  border: 0;
+  cursor: pointer;
+}
 .content .contL span {
   padding-left: 10px;
 }
@@ -107,6 +148,14 @@
   box-sizing: border-box;
   padding-top: 16px;
 }
+.content .contL .it #code {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+  border: 0;
+  letter-spacing: 2px;
+  color: blue;
+}
 .content .contL .it .Lfll {
   float: left;
 }
@@ -146,14 +195,18 @@
 .content .contL .it .iL h2 {
   text-align: right;
 }
-.content .contL .It {
-  width: 700px;
-  height: 44px;
-}
 .content img {
   float: left;
   width: 182px;
   height: 366px;
+}
+
+#pp {
+  width: 980px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=register.css.map */

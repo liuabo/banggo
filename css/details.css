@@ -1,0 +1,658 @@
+@charset "UTF-8";
+#Dbox {
+  position: absolute;
+  right: 257px;
+  top: 151px;
+}
+#Dbox .conL {
+  width: 236px;
+  height: 531px;
+  position: relative;
+  float: left;
+  display: none;
+}
+#Dbox .conL .tc {
+  width: 722px;
+  height: 530px;
+  background: #fff;
+  position: absolute;
+  left: -630px;
+  bottom: -4px;
+  z-index: 10;
+  border: 1px solid #ccc;
+  display: none;
+}
+#Dbox .conL .tc .Left {
+  width: 182px;
+  height: 530px;
+  float: left;
+}
+#Dbox .conL .tc .Left dl {
+  height: 150px;
+}
+#Dbox .conL .tc .Left dl dt {
+  height: 19px;
+  color: #222;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+#Dbox .conL .tc .Left dl dd {
+  width: 211px;
+  height: 100px;
+}
+#Dbox .conL .tc .Left dl dd a {
+  display: block;
+  font-size: 14px;
+  float: left;
+  width: 72px !important;
+  line-height: 19px !important;
+  padding-right: 10px !important;
+}
+#Dbox .conL .tc .Lp {
+  width: 540px;
+  height: 360px;
+  float: left;
+}
+#Dbox .conL .tc .Right {
+  float: left;
+  width: 540px;
+  height: 170px;
+  background: #fff;
+}
+#Dbox .conL .tc .Right p {
+  font-size: 14px;
+  color: #222;
+  font-weight: 900;
+  margin-top: 5px;
+}
+#Dbox .conL .tc .Right a {
+  float: left;
+  margin: 19px 12px;
+}
+#Dbox .conL ul {
+  border: 1px solid #d51819;
+  position: absolute;
+  top: 3px;
+  left: -866px;
+  background: #fff;
+}
+#Dbox .conL .LL {
+  height: 51px;
+}
+#Dbox .conL .F {
+  margin-top: 10px;
+}
+#Dbox .conL dl {
+  width: 224px;
+  height: 73px;
+  padding-left: 10px;
+}
+#Dbox .conL dl dt {
+  width: 224px;
+  height: 19px;
+  font-size: 14px;
+  color: #222;
+  font-weight: 900;
+  height: 19px;
+}
+#Dbox .conL dl dd {
+  float: left;
+}
+#Dbox .conL dl dd a {
+  padding-right: 3px;
+  color: #696969;
+}
+
+/*--------------------n内容------------------------------*/
+.content {
+  width: 1200px;
+  height: 4688px;
+  margin: 0 auto;
+  /*-------------------商品列表-----------------------*/
+}
+.content .mbShop {
+  width: 1200px;
+  height: 46px;
+  margin: 0 auto;
+}
+.content .mbShop .bedNav {
+  width: 164px;
+  height: 26px;
+  float: left;
+}
+.content .mbShop .bedNav a {
+  line-height: 46px;
+  color: #666;
+}
+.content .mbShop .sec {
+  width: 132px;
+  height: 24px;
+  float: left;
+  border: 1px solid #ccc;
+  margin-top: 9px;
+}
+.content .mbShop .sec #sec1 {
+  width: 110px;
+  height: 24px;
+  border: 0;
+  float: left;
+}
+.content .mbShop .sec #btn {
+  width: 22px;
+  height: 24px;
+  float: left;
+  border: 0;
+  background: #fff url(../images/reg/Veo_mbshop_spirit_pic.png) no-repeat 2px -367px;
+}
+.content .Shop {
+  width: 100%;
+  height: 100%;
+}
+.content .Shop .shopLeft {
+  width: 180px;
+  height: 116px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.content .Shop .shopLeft h1 {
+  border-bottom: 1px #000 solid;
+  color: #000;
+  padding-bottom: 10px;
+  font: 700 15px "微软雅黑";
+}
+.content .Shop .shopLeft ul li {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  display: block;
+  line-height: 18px;
+}
+.content .Shop .shopLeft ul li dl {
+  display: none;
+}
+.content .Shop .shopLeft ul li dl dt {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.content .Shop .shopLeft ul li dl dt a {
+  width: 100px;
+}
+.content .Shop .shopLeft ul li dl dt em {
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+  width: 8px;
+  height: 10px;
+  margin: 5px 5px 0 16px;
+  background: url(../images/reg/Veo_mbshop_spirit_pic.png) no-repeat -25px -94px;
+}
+.content .Shop .shopLeft ul li a {
+  width: 160px;
+  height: auto;
+  float: left;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  display: block;
+}
+.content .Shop .shopLeft ul li em {
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+  width: 8px;
+  height: 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background: url(../images/reg/Veo_mbshop_spirit_pic.png) no-repeat -8px -92px;
+}
+.content .Shop .shopRight {
+  width: 980px;
+  height: 100%;
+  float: left;
+}
+.content .Shop .shopRight .option {
+  width: 980px;
+  height: 228px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.content .Shop .shopRight .option .op1 {
+  width: 938px;
+  height: 21px;
+  padding-top: 2px;
+  margin-top: 10px;
+}
+.content .Shop .shopRight .option .op1 #brand {
+  width: 50px;
+  float: left;
+  border-right: 1px #ccc solid;
+  padding-top: 1px;
+}
+.content .Shop .shopRight .option .op1 .mbshop_searchItemContent {
+  width: 818px;
+  height: 19px;
+  line-height: 19px;
+  float: left;
+  overflow-y: hidden;
+}
+.content .Shop .shopRight .option .op1 .mbshop_searchItemContent a {
+  margin: 0 2px;
+}
+.content .Shop .shopRight .option .op1 .mbshop_searchMore {
+  width: 50px;
+  cursor: pointer;
+  float: left;
+  background: url(../images/Veo_mbshop_spirit_pic.png) no-repeat 33px -253px;
+  background-repeat: no-repeat;
+  background-position: 33px -253px;
+}
+.content .Shop .shopRight .option .op2 {
+  width: 938px;
+  height: 19px;
+  margin-top: 10px;
+}
+.content .Shop .shopRight .option .op2 #brand {
+  width: 50px;
+  float: left;
+  border-right: 1px #ccc solid;
+  padding-top: 1px;
+}
+.content .Shop .shopRight .option .op2 .mbshop_searchItemContent {
+  width: 818px;
+  height: 19px;
+  line-height: 19px;
+  float: left;
+  overflow-y: hidden;
+}
+.content .Shop .shopRight .option .op2 .mbshop_searchMore {
+  width: 50px;
+  cursor: pointer;
+  float: left;
+  background: url(../images/Veo_mbshop_spirit_pic.png) no-repeat 33px -253px;
+  background-repeat: no-repeat;
+  background-position: 33px -253px;
+}
+.content .Shop .shopRight .option .op3 {
+  width: 938px;
+  height: 19px;
+  margin-top: 10px;
+}
+.content .Shop .shopRight .option .op3 #price {
+  width: 50px;
+  float: left;
+  border-right: 1px #ccc solid;
+  padding-top: 1px;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent {
+  width: 818px;
+  height: 19px;
+  line-height: 19px;
+  float: left;
+  overflow-y: hidden;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent a {
+  margin: 0 0 10px 20px;
+  width: auto;
+  float: left;
+  display: block;
+  padding: 0;
+  padding-top: 1px;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent .new_mbshop_pricequjian {
+  width: 158px;
+  height: 13px;
+  color: #333;
+  text-align: center;
+  float: left;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent .new_mbshop_pricequjian b {
+  font-weight: 400;
+  float: left;
+  padding: 0 5px;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent .new_mbshop_pricequjian #start_price {
+  width: 35px;
+  height: 13px;
+  border-color: #CCC;
+  color: #333;
+  text-align: center;
+  float: left;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent .new_mbshop_pricequjian #end_price {
+  width: 35px;
+  height: 13px;
+  border-color: #CCC;
+  color: #333;
+  text-align: center;
+  float: left;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent .new_mbshop_pricequjian input {
+  float: left;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchItemContent .new_mbshop_pricequjian .mbshop_ie_btn_s_f_sure {
+  width: 45px;
+  height: 19px;
+  border: 1px solid #CCC;
+  color: #000;
+  text-align: center;
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.content .Shop .shopRight .option .op3 .mbshop_searchMore {
+  width: 50px;
+  cursor: pointer;
+  float: left;
+  background: url(../images/Veo_mbshop_spirit_pic.png) no-repeat 33px -253px;
+  background-repeat: no-repeat;
+  background-position: 33px -253px;
+}
+.content .Shop .shopRight .option .op4 {
+  width: 938px;
+  height: 19px;
+  margin-top: 10px;
+}
+.content .Shop .shopRight .option .op4 .mbshop_searchItem {
+  width: 938px;
+  float: left;
+  margin: 1px 0 0 20px;
+}
+.content .Shop .shopRight .option .op4 .mbshop_searchItem span {
+  width: 50px;
+  float: left;
+  border-right: 1px #ccc solid;
+}
+.content .Shop .shopRight .option .op4 .mbshop_searchItem .mbshop_searchItemContent {
+  width: 818px;
+  height: 19px;
+  line-height: 19px;
+  float: left;
+  overflow-y: hidden;
+}
+.content .Shop .shopRight .option .op4 .mbshop_searchItem .mbshop_searchItemContent a {
+  margin: 0 0 10px 20px;
+  width: auto;
+  float: left;
+  display: block;
+  padding: 0;
+  color: #000;
+}
+.content .Shop .shopRight .option .op4 .mbshop_searchItem .mbshop_searchMore {
+  width: 50px;
+  cursor: pointer;
+  float: left;
+  background: url(../images/Veo_mbshop_spirit_pic.png) no-repeat 33px -253px;
+  background-repeat: no-repeat;
+  background-position: 33px -253px;
+}
+.content .Shop .shopRight .option .op5 {
+  width: 938px;
+  height: 36px;
+  margin-top: 10px;
+}
+.content .Shop .shopRight .option .op5 .mbshop_searchItem {
+  width: 938px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+.content .Shop .shopRight .option .op5 .mbshop_searchItem span {
+  width: 50px;
+  float: left;
+  border-right: 1px #ccc solid;
+}
+.content .Shop .shopRight .option .op5 .mbshop_searchItem i {
+  float: left;
+  margin: 0 10px;
+}
+.content .Shop .shopRight .option .op6 {
+  width: 938px;
+  height: 36px;
+  margin-top: 10px;
+}
+.content .Shop .shopRight .option .op6 .seach_Box {
+  width: 978px;
+  height: 36px;
+  position: relative;
+}
+.content .Shop .shopRight .option .op6 .seach_Box b {
+  float: left;
+  font-family: "微软雅黑";
+  margin: 12px 0 0 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing:nth-child(2) i {
+  width: 77px !important;
+  margin-left: -20px;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing {
+  width: auto;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption_box {
+  display: none;
+  position: absolute;
+  width: 980px;
+  height: auto;
+  padding: 5px 10px 10px;
+  border: 1px solid #B5B5B5;
+  background-color: #fff;
+  z-index: 5;
+  top: 34px;
+  left: -1px;
+  webkit-box-shadow: 0 0 5px #ccc;
+  -moz-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border-top: 0;
+  box-sizing: border-box;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption_box a {
+  float: left;
+  display: block;
+  width: 90px;
+  margin-top: 5px;
+  padding: 3px 0;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption {
+  float: left;
+  display: block;
+  width: auto;
+  height: 30px;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption .mbshop_new_searchItemOption_menu {
+  width: 55px;
+  height: auto;
+  padding: 3px 25px 2px 10px;
+  padding: 2px 25px 2px 10px\9;
+  float: left;
+  display: block;
+  background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 73px -66px no-repeat #fff;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #B5B5B5;
+  border-radius: 3px;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption .mbshop_new_searchItemOption_menu .mbshop_new_searchItemOption_menu {
+  text-decoration: none;
+  color: #333;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption .mbshop_new_searchItemOption_menu i {
+  font-style: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+  width: 55px !important;
+  float: left;
+  text-align: center;
+}
+.content .Shop .shopRight .option .op6 .seach_Box .mbshop_searchItemshuxing .mbshop_new_searchItemOption i {
+  float: left;
+}
+.content .Shop .shopRight .alert .mbshop_searchAlert {
+  padding: 10px 0 !important;
+  width: 980px;
+  height: 14px;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  font: 400 12px "微软雅黑","黑体","宋体",verdana;
+}
+.content .Shop .shopRight .alert .mbshop_searchAlert b {
+  font-weight: 700;
+  color: red;
+}
+.content .Shop .shopRight .mbshop_pdFilter {
+  width: 980px;
+  float: none;
+  margin: 15px auto 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+.content .Shop .shopRight .mbshop_pdFilter .mbshop_pdFilterItem .mbshop_pdFilterItem .mbshop_pdFilterHover {
+  color: #fff;
+}
+.content .Shop .shopRight .mbshop_pdFilter .mbshop_pdFilterItem a {
+  width: auto;
+  height: auto;
+  float: left;
+  display: block;
+  border-right: 2px #fff solid;
+  margin: 0;
+  padding: 10px 25px;
+}
+.content .Shop .shopRight .mbshop_pdFilter .mbshop_pdPaginationTop {
+  float: right;
+  width: auto;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.content .Shop .shopRight .mbshop_pdFilter .mbshop_pdPaginationTop .mbshop_pdPaginationAct {
+  float: left;
+  width: auto;
+  padding: 1px 15px 0;
+}
+.content .Shop .shopRight .mbshop_pdFilter .mbshop_pdPaginationTop .mbshop_pdPaginationShowPd {
+  float: left;
+}
+.content .Shop .shopRight .commodity {
+  width: 980px;
+  height: 4360px;
+}
+.content .Shop .shopRight .commodity .List2, .content .Shop .shopRight .commodity .List3, .content .Shop .shopRight .commodity .List4, .content .Shop .shopRight .commodity .List5, .content .Shop .shopRight .commodity .List6, .content .Shop .shopRight .commodity .List7 {
+  display: none;
+}
+.content .Shop .shopRight .commodity ul {
+  width: 1000px;
+  height: 4360px;
+}
+.content .Shop .shopRight .commodity ul li {
+  width: 230px;
+  height: 421px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.content .Shop .shopRight .commodity ul li .Bbox {
+  width: 230px;
+  height: 61px;
+}
+.content .Shop .shopRight .commodity ul li a {
+  font-size: 14px;
+}
+.content .Shop .shopRight .commodity ul li a img {
+  width: 230px;
+  height: 315px;
+}
+.content .Shop .shopRight .commodity ul li .fl {
+  display: block;
+}
+.content .Shop .shopRight .commodity ul li .listPdText a {
+  display: block;
+  width: 180px;
+  height: 14px;
+  float: left;
+}
+.content .Shop .shopRight .commodity ul li .mbshop_listPdText {
+  width: 230px;
+  height: 20px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  font: 400 14px "微软雅黑","黑体","宋体",verdana;
+  text-transform: uppercase;
+}
+.content .Shop .shopRight .commodity ul li .mbshop_listPdText i {
+  margin-left: 10px;
+  font: 400 14px "微软雅黑","黑体","宋体",verdana;
+  text-decoration: line-through;
+  text-transform: uppercase !important;
+}
+.content .Shop .shopRight .commodity ul li .mbshop_listPdText b {
+  font: 700 14px "微软雅黑","黑体","宋体",verdana;
+}
+.content .Shop .shopRight .commodity ul .Fram {
+  width: 230px;
+  height: 33px;
+  background: #333333;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+.content .Shop .shopRight .commodity ul .Fram a {
+  display: block;
+  width: 31px;
+  height: 31px;
+  float: left;
+  margin-right: 5px;
+}
+.content .Shop .shopRight .commodity ul .Fram a img {
+  float: left;
+  width: 31px;
+  height: 31px;
+}
+.content .Shop .shopRight .mbshop_publicPagination {
+  margin: 35px auto 0px;
+  float: none;
+  width: 412px;
+  height: auto;
+  position: relative;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+}
+.content .Shop .shopRight .mbshop_publicPagination a {
+  margin: 0 0 0 8px;
+  border: 1px solid #e9e9e9;
+  background-color: #fff;
+  padding: 5px 10px;
+  height: auto;
+  color: #696969;
+  float: left;
+  display: block;
+}
+.content .Shop .shopRight .mbshop_publicPagination .currentPage {
+  background-color: #fff !important;
+  color: #f8584f !important;
+  border: 1px solid #f8584f !important;
+}
+
+/*# sourceMappingURL=details.css.map */

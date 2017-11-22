@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reg1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/public.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/reg1.js"></script>
+		
+	</head>
+	<body>
+		<div class="top">
+			<h1><a href="###"><img src="images/res/logo.png"/></a></h1>
+		</div>
+		<div class="content">
+			<div class="res">
+				<a href="###">手机注册</a>
+			</div>
+			<div class="RG">
+				<div class="RG-left">
+					<div class="RG_sbox1 Lfll Lpt20 Lovh" id="mobile2_div" style="">
+				<div class="RG_title">第二步：填写获得的激活码</div>
+				<form name="mobile2_form" id="mobile2_form" method="post" action="/CASServer/custom/registry.do">
+					<input name="service" value="http://bgact.banggo.com//Login/Reg" type="hidden"> 
+					<input name="codeNumber" value="" type="hidden"> 
+					<input name="sourceCode" value="" type="hidden"> 
+					<input name="little" value="563bc7c9269088bdffe39567163d10ee" type="hidden">
+					<div class="item Lovh Lmt15">
+						<div class="ltext Lfll">用户名：</div>
+						<div class="Lfll">
+							<div class="inputlbd Lfll">&nbsp;</div>
+							<input class="input1 Lfll" id="user_id" name="uid" value="" readonly="" type="text"> 
+							<span class="errorinfo Lcfl">&nbsp;</span>
+						</div>
+					</div>
+					<div class="item Lovh">
+						<div class="ltext Lfll">手机号码：</div>
+						<div class="Lfll">
+							<div class="inputlbd Lfll">&nbsp;</div>
+							<input class="input1 Lfll" id="mobile2" name="mobile" value="" readonly="" type="text"> 
+							<span class="tips Lfll Ldn">&nbsp;</span>
+							<span class="errorinfo Lcfl">&nbsp;</span>
+						</div>
+					</div>
+					<div class="item Lovh">
+						<div class="ltext Lfll">登录密码：</div>
+						<div class="Lfll">
+							<div class="inputlbd Lfll">&nbsp;</div>
+							<input class="input1 Lfll Pwd" name="pwd" value="" id="pwd_mobile2_form" type="password"> 
+							<span class="tips tipsA">6-16个字符，请使用字母加数字或符号的组合密码。</span> 
+							<span id="message_mobile2_form" class="errorinfo Lcfl"><font color="green"></font></span>
+						</div>
+					</div>
+					<div class="item Lovh">
+						<div class="ltext Lfll">确认密码：</div>
+						<div class="Lfll">
+							<div class="inputlbd Lfll">&nbsp;</div>
+							<input class="input1 Lfll Qpwd" name="rpassword" id="rpwd_mobile2_form" value="" type="password"> 
+							<span class="tips">请再次输入登录密码。</span>
+							<span id="rmessage_mobile2_form" class="errorinfo Lcfl"><font color="green"></font></span>
+						</div>
+					</div>
+					<div class="item Lovh">
+						<div class="ltext Lfll">激活码：</div>
+						<div class="Lfll">
+							<div class="inputlbd Lfll">&nbsp;</div>
+							<input class="input1 Lfll" name="mobile_code" id="activeCode" value="" type="text"> 
+							<span class="tips1">请输入您的激活码。</span>
+							<span id="activeCode_messsage" class="errorinfo Lcfl"><font color="green">验证成功</font></span>
+						</div>
+					</div>
+					<div class="item Lovh">
+						<div class="ltext Lfll">邀请人手机号码：</div>
+						<div class="Lfll">
+							<div class="inputlbd Lfll">&nbsp;</div>
+							<input class="input1 Lfll" name="userInfo.invitationMobile" id="invitationMobile" value="" type="text"> 
+							<span class="tips1">请输入邀请人账号绑定的手机号码。</span>
+							<span id="invitationMobile_messsage" class="errorinfo Lcfl"><font color="green"></font></span>
+							
+						</div>
+					</div>
+					<div class="item Lovh Lmt15">
+						<div class="ltext Lfll">&nbsp;</div>
+						<a id="xy" class="btn btn_acceptAndRegister Lfll">
+							<!--<span>同意以下协议并注册</span>-->
+						</a>
+						<div class="postphonecode">
+							<span style="position: relative;top:-17px;" id="notRecieve">手机未收到验证码，</span> <a  style="position: relative;top:-17px;" class="rsendCode">重新发送</a>&nbsp;&nbsp;
+							<span id="firstClickMessage" class="errorinfo Lcfl" style="color: red"></span>
+							<span id="errorMessage" class="errorinfo Lcfl" style="color: red"></span>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ltext Lfll">&nbsp;</div>
+						<div class="Lfll">
+							<a href="http://www.banggo.com/article_58.shtml" target="_blank" class="useragreement">《邦购用户协议》</a>
+						</div>
+					</div>
+				</form>
+			</div>
+				</div>
+				<img src="images/res/res.png"/>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,151 @@
+.top {
+  width: 980px;
+  height: 100px;
+  margin: 0 auto;
+}
+.top img {
+  width: 266px;
+  height: 73px;
+}
+
+.content {
+  width: 980px;
+  height: 366px;
+  margin: 0 auto;
+}
+.content .res {
+  width: 980px;
+  height: 26px;
+  border-bottom: 2px solid #6e6e6e;
+}
+.content .res a {
+  display: block;
+  width: 160px;
+  height: 26px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+  background: #6e6e6e;
+  border-radius: 5px;
+}
+.content .RG {
+  width: 982px;
+  height: 558px;
+  border: 1px solid #ccc;
+}
+.content .RG .RG-left {
+  width: 758px;
+  height: 556px;
+  float: left;
+}
+.content .RG .RG-left .RG_sbox1 {
+  width: 700px;
+  height: 556px;
+  padding: 15px 0 30px 20px;
+}
+.content .RG .RG-left .RG_sbox1 .RG_title {
+  width: 700px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-indent: 20px;
+  margin-left: 15px;
+  border-bottom: 1px dotted #E6E6E6;
+}
+.content .RG .RG-left .RG_sbox1 .Lmt15 {
+  margin-top: 15px;
+}
+.content .RG .RG-left .RG_sbox1 .Lmt15 .btn_acceptAndRegister {
+  display: block;
+  width: 213px;
+  height: 36px;
+  background: url(../images/reg/buttons.png) no-repeat 0 -126px;
+}
+.content .RG .RG-left .RG_sbox1 .item {
+  width: 700px;
+  height: 60px;
+  line-height: 60px;
+}
+.content .RG .RG-left .RG_sbox1 .item .postphonecode {
+  height: 30px;
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+  display: inline-block;
+  float: left;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll {
+  float: left;
+  line-height: 1.6em;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .errorinfo {
+  height: 20px;
+  color: #F60;
+  display: block;
+  line-height: 20px;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .tips {
+  width: 305px;
+  margin-top: -2px;
+  display: inline-block;
+  color: #999;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .tips1 {
+  width: 305px;
+  margin-top: 5px;
+  display: inline-block;
+  color: #999;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .useragreement:hover {
+  color: #F60;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .RG_mbox .useragreement:hover {
+  color: #F60;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .RG_mbox .useragreement {
+  color: #333;
+  text-decoration: underline;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .RG_mbox .useragreement {
+  color: #333;
+  text-decoration: underline;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .input1 {
+  border: 1px solid #ABABAB;
+  width: 240px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 5px 0 0;
+  margin: 0 10px 0 0;
+  background-position: 0 -700px;
+  background-repeat: repeat-x;
+}
+.content .RG .RG-left .RG_sbox1 .item .Lfll .inputlbd {
+  width: 5px;
+  height: 30px;
+  overflow: hidden;
+  background-position: 0 -650px;
+}
+.content .RG .RG-left .RG_sbox1 .item .ltext {
+  width: 120px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+.content img {
+  float: left;
+  width: 182px;
+  height: 366px;
+}
+
+/*# sourceMappingURL=reg1.css.map */

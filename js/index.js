@@ -36,11 +36,17 @@ $(function(){
 	},function(){
 		$(this).animate({"opacity":1},200)
 	})
-	
+	//商品分类显示
 	$(".F").hover(function(){
 		$(".tc").css("display","block")
 	},function(){
 		$(".tc").css("display","none")
+		
+	})
+	$(".tc").hover(function(){
+		$(this).css("display","block")
+	},function(){
+		$(this).css("display","none")
 		
 	})
 	
@@ -237,18 +243,19 @@ $.getJSON("json/content2.json",function(data){
 		$(this).animate({"opacity":"1"})
 	})
 	
+		// 触发滚动条时   显示小火箭
+		$(window).scroll(function(){
+			sTop = document.body.scrollTop || document.documentElement.scrollTop;
+			if( sTop > 200 ){
+				$(".hed").css("display","block");
+			}else{
+				$(".hed").click(function(){
+			document.body.scrollTop = document.documentElement.scrollTop = 0;
+			$(".hed").css("display","none");
+		})
+			}
+		})
+		
+		
 	
-	
-	$(window).scroll(function(){
-		//获取页面滚走的距离
-		var sTop = $(document).scrollTop();
-		if( sTop > 200 ){
-			$(".hed").css("display","block")
-			$(".hed").click(function(){
-			$("body,html").animate({ scrollTop : 0 },1000)
-	})
-		}else{
-			$(".hed").css("display","none")
-		}
-	})
 })
