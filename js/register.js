@@ -18,7 +18,7 @@ $(function() {
 	$("#uname").blur(function() {
 		var reg = /[\u4e00-\u9fa5a-zA-Z0-9\-]{4,20}/;
 		var str = $("#uname").val();
-		console.log(str)
+		//console.log(str)
 		if(reg.test(str)) {
 			flagNam = true;
 			$(".s1").css("color", "green")
@@ -33,7 +33,7 @@ $(function() {
 	$("#mobileNumber").blur(function() {
 		var str = $("#mobileNumber").val();
 		var reg = /^1[45378]\d{9}$/;
-		console.log(str);
+		//console.log(str);
 		if(reg.test(str)) {
 			flagTel = true;
 			$(".s2").css("color", "green")
@@ -44,22 +44,24 @@ $(function() {
 	})
 
 	$(".qL2").click(function() {
-		//var  id = new Date().getTime()
-		//var date = new Date();
+		var  id = new Date().getTime()
+		var date = new Date();
 		if(flagNam && flagTel) {
 			var userName = $("#uname").val();
 			var userId = $("#mobileNumber").val();
-			/*var cookieValue = "{id:" + id + ',user:"' + userName + '",userId:' + userId + "}";;
+			var cookieValue = "{id:" + id + ',user:"' + userName + '",userId:' + userId + "}";;
 			var cookieKey = "user_" + id;
-			document.cookie = cookieKey + '=' + cookieValue + ";expires=" + date + ";path=/";*/
+			document.cookie = cookieKey + '=' + cookieValue + ";expires=" + date + ";path=/";
 			// ",userId=" + userId +
-			var date = new Date();
+			/*var date = new Date();
 			date.setDate(date.getDate() + 7);
-			document.cookie =  "user=" + userName + ";expires=" + date;
+			document.cookie =  "user=" + userName + ";expires=" + date;*/
 			alert("注册成功");
 			//
 			//cookie();
 			
+			//$("#user_id").html($("#uname").val());
+			//$("#mobile2").html($("#mobileNumber").val());
 			var timer = setInterval(function(){
 				location.href = "reg1.html";
 				
@@ -81,9 +83,6 @@ $(function() {
 			alert("请输入验证码")
 		} else if($(this).val() != $("#yz").html()) {
 			alert("请输入正确验证码")
-		} else {
-			alert("输入正确")
-			
 		}
 	})
 

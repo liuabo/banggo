@@ -24,4 +24,31 @@ $(function(){
 			alert("用户名或密码有误");
 		}
 	})
+	
+	
+	$("#jsSeltab h3").eq(0).click(function(){
+		var index = $(this).index()
+		$(".AA").css("display","block")
+		//$(".AA").siblings().css("display","none")
+		$(".CCC").css("display","none")
+		$(".DD").css("display","none")
+	})
+		
+	
+	$("#jsSeltab h3").eq(1).click(function(){
+		var index = $(this).index()	
+		//$(".CCC").siblings().css("display","none")
+		$(".AA").css("display","none")
+		$(".CCC").css("display","block")
+		$(".DD").css("display","none")
+	})
+	
+	$("#jsSeltab h3").eq(2).click(function(){
+		var index = $(this).index()	
+		//$(".CCC").siblings().css("display","none")
+		$(".AA").css("display","none")
+		$(".DD").css("display","block")
+		$(".CCC").css("display","none")
+	})
+	
 })

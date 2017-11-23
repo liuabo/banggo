@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/fangda.css" />
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/particulars.js"></script>
-		<script src="js/index.js"></script>
+		
 	</head>
 
 	<body>
@@ -334,7 +334,7 @@
 			<!------------------------------->
 			<div class="cont">
 				<div class="PicLeft small">
-					<div id="mall">
+					<!--<div id="mall">
 						<img src="images/particulars/606003_00.jpg" />
 					<img src="images/particulars/606003_00.jpg" />
 					<img src="images/particulars/606003_00.jpg" />
@@ -360,7 +360,26 @@
 						<img src="images/particulars/pin3.jpg" />
 						<img src="images/particulars/pin4.jpg" />
 						<img src="images/particulars/pin5.jpg" />
-					</div>
+					</div>-->
+					
+					<div id="box">
+		<div id="left">
+			<ul id="lefttop">
+				<li><img src="images/img/1m.jpg" alt="" /></li>
+				<div id="opac"></div>
+				<div id="mark"></div>
+			</ul>
+			<ul id="leftbottom">
+				<li><img src="images/img/1s.jpg" alt="" /></li>
+				<li><img src="images/img/2s.jpg" alt="" /></li>
+				<li><img src="images/img/3s.jpg" alt="" /></li>
+				<li><img src="images/img/4s.jpg" alt="" /></li>
+			</ul>
+		</div>
+		<div id="right">
+		</div>
+	</div>
+					
 					<div class="PicBot">
 						<div class="mbshop_detail_favAndShare">
 							<!-- 商品编号 -->
@@ -500,7 +519,7 @@
 			</div>
 
 			<div class="ContRight">
-				<div class="mbshop_detail_tabNav">
+				<div class="mbshop_detail_tabNav XD">
 					<li class="gitPage">商品详情</li>
 					<li class="goods_comments_nav gitPage">商品评价(<span>7</span>)</li>
 					<li class="gitPage mbshop_detail_tabNav_hover">购买须知</li>
@@ -630,3 +649,58 @@
 	</body>
 
 </html>
+<script type="text/javascript">
+	var oMark = document.getElementById("mark");
+	var oLt = document.getElementById("lefttop");
+	var oBox = document.getElementById("box");
+	var oLeft = document.getElementById("left");
+	var oRight = document.getElementById("right");
+	var oList = document.getElementById("leftbottom").getElementsByTagName("li");
+	var oLimg = oLt.getElementsByTagName("img")[0];
+	oLt.onmouseover = function(){
+		oMark.style.display = "block";
+		oRight.style.display = "block"
+	}
+	oLt.onmouseout = function(){
+		oMark.style.display = "none";
+		oRight.style.display = "none";
+	}
+	
+	oLt.onmousemove = function(evt){
+		var e = evt || window.event;
+		
+		var l = e.pageX - oMark.offsetWidth / 2 - oBox.offsetLeft;
+		var t = e.pageY - oMark.offsetHeight / 2 - oBox.offsetTop;
+		
+		if(l < 0){
+			l = 0;
+		}else if( l > oLt.offsetWidth - oMark.offsetWidth){
+			 l = oLt.offsetWidth - oMark.offsetWidth
+		}
+		
+		if(t < 0){
+			t = 0;
+		}else if(t > oLt.offsetHeight - oMark.offsetHeight){
+			t = oLt.offsetHeight - oMark.offsetHeight;
+		}
+		
+		oMark.style.left = l + "px";
+		oMark.style.top = t + "px";
+		
+		oMark.style.backgroundPositionX = - l + "px";
+		oMark.style.backgroundPositionY = - t + "px";
+		
+		oRight.style.backgroundPositionX = - 2 * l +"px";
+		oRight.style.backgroundPositionY = - 2 * t +"px";
+	}
+	
+	for(let i = 0; i < oList.length; i ++){
+		oList[i].onmouseover = function(){
+			var index = i + 1;
+			oRight.style.background = "url(img/" + index + "b.jpg)";
+			oLimg.src = "img/" + index + "m.jpg";
+			oMark.style.background = "url(img/" + index + "m.jpg)";
+		}
+	}
+	
+</script>

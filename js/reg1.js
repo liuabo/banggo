@@ -23,9 +23,7 @@ $(function() {
 				var user = eval('(' + val[1] + ')');
 				var $userId = user.user
 				var $userPass = user.userId
-				/*$("#user_id").val($userId)
-				$("#mobile2").val($userPass)*/
-				$("#user_id").val(userName)
+				$("#user_id").val($userId)
 				$("#mobile2").val($userPass)
 			}
 		}
@@ -45,7 +43,20 @@ $(function() {
 				}, 1000)
 
 			}
+			
 	})
+	
+	var str = document.cookie;
+	var arr = str.split("; ");
+	for(var i = 0 ; i < arr.length ; i++){
+		var list = arr[i].split("=");//["username","lll"]
+		if( list[0] == "user" ){
+			$("#user_id").html(list[1]);
+		}
+	}
+	
+	
+	
 
 	//密码
 	var flagPwd = null;

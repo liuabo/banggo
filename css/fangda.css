@@ -1,38 +1,70 @@
-#mall {
-  width: 480px;
-  height: 480px;
-  border: 1px solid #ccc;
-}
-#mall #layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 350px;
-  height: 350px;
-  background: gray;
-  opacity: 0.4;
-  display: none;
-}
-#mall img {
-  position: absolute;
-  left: 161px;
-  top: 202px;
-}
-#mall #Big {
-  width: 500px;
-  height: 500px;
-  border: 1px solid #ccc;
-  background: red;
-  position: absolute;
-  top: 200px;
-  left: 672px;
-  z-index: 1000;
-}
-#mall #Big img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0 0  10px;
-}
-
-/*# sourceMappingURL=fangda.css.map */
+		*{
+			margin:0;padding:0;
+		}
+		li{
+			list-style: none;
+		}
+		#box{
+			width:353px;
+			left:100px;
+			position: relative;
+		}
+		#left{
+			width:350px;
+			height:401px;
+			border:1px solid #000;
+		}
+		#lefttop{
+			width:350px;
+			height:350px;
+			position: relative;
+			border-bottom: 1px solid #000;
+		}
+		#lefttop li{
+			width:350px;
+			height:350px;
+			position: absolute;
+		}
+		#lefttop li img{
+			position: absolute;
+			width:350px;
+			height:350px;
+			}
+		#leftbottom{
+			width:350px;
+			height:50px;
+		}
+		#leftbottom li{
+			
+			float: left;
+			margin:0 15px;
+		}
+		#leftbottom li img{
+			width:50px;
+			height:50px;
+		}
+		#right{
+			border:1px solid #000;
+			width: 400px;
+			height:400px;
+			position: absolute;
+			left:400px;
+			top:0;
+			background: url(images/img/1b.jpg);
+			display: none;
+		}
+		#mark{
+			width:176px;
+			height:176px;
+			border:1px solid #000;
+			position:absolute;
+			left:0;top:0;
+			background: url(images/img/1m.jpg);
+			display: none;
+		}
+		#opac{
+			width:350px;
+			height:350px;
+			background: #000;
+			opacity: 0.3;
+		}
